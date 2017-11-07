@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/posts/post",
+    "pages/index/index",
+    "pages/board/board",
+    "pages/list/list", 
+    "pages/item/item",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "MyApp",
+    "navigationBarTextStyle":"white"
+  }
+}

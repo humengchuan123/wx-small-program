@@ -1,0 +1,49 @@
+<view>
+   <swiper indicator-dots="true" autoplay="true"
+   interval="3000">
+        <swiper-item>
+            <image src="../../images/011289.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+        	<image src="../../images/01134567.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+        	<image src="../../images/0113456_.jpg"></image>
+        </swiper-item>
+   </swiper>
+ 
+ 
+     <view class="post-container">
+        <view class="post-author-data">
+            <image src="{{avatar}}"></image>
+            <text class="post-title">{{date}}</text>
+        </view>
+        <text class="title">{{title}}</text>
+        <image class="post-image" src="{{imgSrc}}"></image>
+        <text class="post-content">{{content}}</text>
+        <view>
+             <image class="post-like-img" src="../../images/icon/chat.png"></image>
+             <text class="post-like-font">{{collection}}</text>
+         <image  class="post-like-img" src="../../images/icon/view.png"></image>
+             <text class="post-like-font">{{reading}}</text>
+        </view>
+    </view>
+
+
+   <view class="post-container">
+       <view class="post-author-data">
+           <image src="../../images/avatar/1.png"></image>
+           <text class="post-title">Nov 6 2017</text>
+       </view>
+       <text class="title">正是虾肥蟹壮时</text>
+       <image class="post-image" src="../../images/post/crab.png"></image>
+       <text class="post-content">租房市场仍然存在着一些虚假房源多、合同无备案、随意涨租金等乱象，随着“购租并举”住房制度的推进，多地推出官方住房租赁平台，被业内看作是解决上述“痛点”的一大抓手。房源真、价格稳、无中间环节的新模式，将为市场带来新秩序</text>
+       <view>
+            <image class="post-like-img" src="../../images/icon/chat.png"></image>
+            <text class="post-like-font">92</text>
+        <image  class="post-like-img" src="../../images/icon/view.png"></image>
+            <text class="post-like-font">65</text>
+       </view>
+   </view>
+
+</view>
