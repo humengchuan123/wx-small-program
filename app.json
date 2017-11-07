@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/posts/post",
+     "pages/posts/post",
     "pages/index/index",
     "pages/board/board",
     "pages/list/list", 

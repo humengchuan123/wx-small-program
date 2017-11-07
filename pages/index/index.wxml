@@ -8,7 +8,7 @@
     <text class="user-motto">{{motto}}</text>
     
   </view>
-    <view class="start-container">
+    <view class="start-container" bindtap="onTap">
   	   <text class="text-start">开启我的小程序</text>
     </view>
 </view>
